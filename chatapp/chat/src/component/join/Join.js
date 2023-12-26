@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 let user;
 
 
-const sendUser = () => {
+const sendUser = () => { //create function
     user = document.getElementById('joinInput').value;
     document.getElementById('joinInput').value = "";
 }
